@@ -1,5 +1,4 @@
 import os
-from typing import List, Tuple
 
 class Loader:
     def __init__(self, data_dir="data/raw"):
