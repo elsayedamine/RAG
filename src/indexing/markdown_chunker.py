@@ -12,9 +12,7 @@ SEPARATORS = [
 ]
 
 
-def MDchunker(doc: Tuple[str, str]) -> List[Dict[str, Any]] :
-    content = doc[1]
-
+def MDchunker(content: str) -> List[Dict[str, Any]] :
     current_pos = 0
     current_start_index = 0
     header_stack = []
@@ -35,12 +33,13 @@ def MDchunker(doc: Tuple[str, str]) -> List[Dict[str, Any]] :
             path = [title for _, title in header_stack]
 
             if section_text.strip():
-                sections.append({
-                    "text": section_text,
-                    "start": current_start_index,
-                    "end": line_start_index,
-                    "path": path
-                })
+                split(
+                    text=section_text,
+                    abs_offset=current_start_index,
+                    seperator=SEPARATORS[0],
+                    path=path,
+                    sections=sections,
+                )
 
             level = len(first_token)
             title = line[level:].strip()
@@ -54,12 +53,13 @@ def MDchunker(doc: Tuple[str, str]) -> List[Dict[str, Any]] :
 
     final_text = content[current_start_index:]
     if final_text.strip():
-        sections.append({
-            "text": final_text,
-            "start": current_start_index,
-            "end": len(content),
-            "path": [title for _, title in header_stack]
-        })
+        split(
+            text=final_text,
+            abs_offset=current_start_index,
+            seperator=SEPARATORS[0],
+            path=[title for _, title in header_stack],
+            sections=sections,
+        )
     return sections
 
 def split(text: str, abs_offset: int, seperator: str, path: List[str], sections: List[Dict[str, Any]]):
@@ -152,21 +152,9 @@ def split(text: str, abs_offset: int, seperator: str, path: List[str], sections:
 
 
 if __name__ == "__main__":
-    doc: Tuple[str, str] = ("example.md", "# Title\nYour markdown content here...")
-    macro_sections = MDchunker(doc)
-    final_chunks: List[Dict[str, Any]] = []
+    content = "# Title\nYour markdown content here..."
+    print(MDchunker(content))
 
-    for section in macro_sections:
-        if len(section["text"]) > MAX_SIZE:
-            split(
-                text=section["text"],
-                abs_offset=section["start"],
-                seperator=SEPARATORS[0],
-                path=section["path"],
-                sections=final_chunks,
-            )
-        else:
-            final_chunks.append(section)
 
 # steps
 
