@@ -1,7 +1,7 @@
 README.md
 pyproject.toml
 src/__init__.py
-src/__main__.py
+src/main.py
 src/models.py
 src/evaluation/recall.py
 src/generation/context.py

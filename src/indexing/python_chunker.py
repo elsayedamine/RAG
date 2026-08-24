@@ -133,11 +133,12 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
 
 def PYchunker(content: str, max_chunk_size: int = 2000) -> List[Dict[str, Any]] :
     offsets = build_line_offsets(content)
+    chunks = []
     try:
         tree = ast.parse(content)
     except SyntaxError:
-        return []
-    chunks = []
+        fallback_line_chunker(content, 0, [], chunks, max_chunk_size)
+        return chunks
     tree_walk(tree, content, offsets, [], chunks, max_chunk_size)
     return chunks
 

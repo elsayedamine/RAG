@@ -5,8 +5,8 @@ from .python_chunker import PYchunker
 """Coordinates loading and chunking of Markdown and Python documents."""
 """It has a list of dict that has the filenmae and its chunks for both py and md"""
 class Chunker:
-    def __init__(self, max_chunk_size=200):
-        loads = Loader("data/raw")
+    def __init__(self, max_chunk_size=2000):
+        loads = Loader("data/dir")  # to check
 
         self.md_chunks = [{"file": doc[0], "chunks": MDchunker(doc[1], max_chunk_size)} for doc in loads.markdown_docs]
         self.py_chunks = [{"file": doc[0], "chunks": PYchunker(doc[1], max_chunk_size)} for doc in loads.python_docs]

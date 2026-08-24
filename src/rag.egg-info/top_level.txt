@@ -1,7 +1,7 @@
 __init__
-__main__
 evaluation
 generation
 indexing
+main
 models
 retrieval
