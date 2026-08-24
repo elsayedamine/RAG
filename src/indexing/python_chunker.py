@@ -1,8 +1,6 @@
 import ast
 from typing import List, Tuple, Dict, Any
 
-MAX_SIZE = 2000
-
 
 def build_line_offsets(content: str) -> List[int]:
     offsets = [0]
@@ -13,32 +11,32 @@ def build_line_offsets(content: str) -> List[int]:
     return offsets
 
 
-def fallback_line_chunker(text: str, start, path, chunks: List):
+def fallback_line_chunker(text: str, start, path, chunks: List, max_chunk_size: int = 2000):
     pos = start
     buffer = ""
     buffer_start = start
 
     for line in text.splitlines(keepends=True):
         # if line too long we flush the buffer
-        # and split the line by MAX_SIZE
-        if len(line) > MAX_SIZE:
+        # and split the line by max_chunk_size
+        if len(line) > max_chunk_size:
             if buffer:
                 chunks.append({"text": buffer, "start": buffer_start,
                                 "end": pos, "path": path})
                 buffer = ""
 
-            for i in range(0, len(line), MAX_SIZE):
-                chunk = line[i:i + MAX_SIZE]
+            for i in range(0, len(line), max_chunk_size):
+                chunk = line[i:i + max_chunk_size]
                 chunks.append({"text": chunk, "start": pos + i,
                     "end": pos + i + len(chunk), "path": path})
 
             pos += len(line)
             buffer_start = pos
-        # we append until we reach MAX_SIZE to flush
-        elif len(buffer) + len(line) <= MAX_SIZE:
+        # we append until we reach max_chunk_size to flush
+        elif len(buffer) + len(line) <= max_chunk_size:
             buffer += line
             pos += len(line)
-        # we flush when MAX_SIZE is reached
+        # we flush when max_chunk_size is reached
         else:
             chunks.append({"text": buffer, "start": buffer_start,
                            "end": pos, "path": path})
@@ -65,7 +63,7 @@ def is_main_guard(node):
     )
 
 
-def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: List):
+def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: List, max_chunk_size: int = 2000):
     nodes = node if isinstance(node, list) else (
     node.body if hasattr(node, "body") else [node]
 )
@@ -98,7 +96,7 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
             buffer_start = None
             buffer_end = None
             buffer_path = None
-        if end - start > MAX_SIZE:
+        if end - start > max_chunk_size:
             if buffer:
                 chunks.append({"text": content[start:end], "start": start,
                     "end": end, "path": buffer_path,})
@@ -110,16 +108,16 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
             children = [child for child in ast.iter_child_nodes(nd) if isinstance(child, ast.stmt)]
             if children:
                 found_child = True
-                tree_walk(children, content, offsets, current_path, chunks)
+                tree_walk(children, content, offsets, current_path, chunks, max_chunk_size)
             if not found_child:
-                fallback_line_chunker(text, content, offsets, current_path, chunks)
+                fallback_line_chunker(text, start, current_path, chunks, max_chunk_size)
             continue
         if not buffer:
             buffer = text
             buffer_start = start
             buffer_end = end
             buffer_path = current_path
-        elif end - buffer_start <= MAX_SIZE:
+        elif end - buffer_start <= max_chunk_size:
             buffer += content[buffer_end:start] + text
             buffer_end = end
         else:
@@ -133,19 +131,19 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
         chunks.append({"text": buffer, "start": buffer_start,
                        "end": buffer_end, "path": buffer_path})
 
-def PYchunker(content: str) -> List[Dict[str, Any]] :
+def PYchunker(content: str, max_chunk_size: int = 2000) -> List[Dict[str, Any]] :
     offsets = build_line_offsets(content)
     try:
         tree = ast.parse(content)
     except SyntaxError:
         return []
     chunks = []
-    tree_walk(tree, content, offsets, [], chunks)
+    tree_walk(tree, content, offsets, [], chunks, max_chunk_size)
     return chunks
 
 if __name__ == "__main__":
     content = "# test content"
-    chunks = PYchunker(content)
+    chunks = PYchunker(content, max_chunk_size=2000)
 
     for i, chunk in enumerate(chunks, 1):
         print(f"\n--- Chunk {i} ---")

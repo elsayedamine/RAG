@@ -1,6 +1,6 @@
 from typing import List, Tuple, Dict, Any
 
-MAX_SIZE = 2000
+
 SEPARATORS = [
     "\n\n",  # Paragraphs
     "\n",    # Lines
@@ -12,7 +12,7 @@ SEPARATORS = [
 ]
 
 
-def MDchunker(content: str) -> List[Dict[str, Any]] :
+def MDchunker(content: str, max_chunk_size: int = 2000) -> List[Dict[str, Any]] :
     current_pos = 0
     current_start_index = 0
     header_stack = []
@@ -59,12 +59,13 @@ def MDchunker(content: str) -> List[Dict[str, Any]] :
             seperator=SEPARATORS[0],
             path=[title for _, title in header_stack],
             sections=sections,
+            max_chunk_size=max_chunk_size,
         )
     return sections
 
-def split(text: str, abs_offset: int, seperator: str, path: List[str], sections: List[Dict[str, Any]]):
+def split(text: str, abs_offset: int, seperator: str, path: List[str], sections: List[Dict[str, Any]], max_chunk_size: int = 2000):
     # text fits within the character limit
-    if len(text) <= MAX_SIZE:
+    if len(text) <= max_chunk_size:
         sections.append({
             "text": text,
             "start": abs_offset,
@@ -72,11 +73,11 @@ def split(text: str, abs_offset: int, seperator: str, path: List[str], sections:
             "path": path,
         })
     # text exceeds limit and no separator remains -> hard-slice
-    elif len(text) > MAX_SIZE and seperator == "":
+    elif len(text) > max_chunk_size and seperator == "":
         length = len(text)
-        # Slice text directly into fixed-size chunks of MAX_SIZE
-        for i in range(0, length, MAX_SIZE):
-            block = text[i: i + MAX_SIZE]
+        # Slice text directly into fixed-size chunks of max_chunk_size
+        for i in range(0, length, max_chunk_size):
+            block = text[i: i + max_chunk_size]
             sections.append({
                 "text": block,
                 "start": abs_offset + i,
@@ -84,7 +85,7 @@ def split(text: str, abs_offset: int, seperator: str, path: List[str], sections:
                 "path": path,
             })
     # text exceeds limit and active separator exists
-    elif len(text) > MAX_SIZE and seperator:
+    elif len(text) > max_chunk_size and seperator:
         curr_rel_offset = 0
         buffer = []
         buffer_len = 0
@@ -99,7 +100,7 @@ def split(text: str, abs_offset: int, seperator: str, path: List[str], sections:
             piece_len = len(piece)
 
             # Piece itself exceeds limit -> Flush buffer and recursively split
-            if piece_len > MAX_SIZE:
+            if piece_len > max_chunk_size:
                 # Flush accumulated pieces before diving deeper
                 if buffer:
                     joined = seperator.join(buffer)
@@ -114,7 +115,7 @@ def split(text: str, abs_offset: int, seperator: str, path: List[str], sections:
                 split(piece, piece_abs_start, SEPARATORS[SEPARATORS.index(seperator) + 1], path, sections)
 
             # Piece fits into current buffer without exceeding limit
-            elif buffer_len + piece_len + (sep_len if buffer else 0) <= MAX_SIZE:
+            elif buffer_len + piece_len + (sep_len if buffer else 0) <= max_chunk_size:
                 # Set buffer start position on the first added piece
                 if not buffer:
                     buffer_start = piece_abs_start
