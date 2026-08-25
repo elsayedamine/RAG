@@ -31,6 +31,7 @@ def fallback_line_chunker(text: str, start, path, chunks: List, max_chunk_size: 
                     "end": pos + i + len(chunk), "path": path})
 
             pos += len(line)
+            buffer = ""
             buffer_start = pos
         # we append until we reach max_chunk_size to flush
         elif len(buffer) + len(line) <= max_chunk_size:
@@ -98,8 +99,8 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
             buffer_path = None
         if end - start > max_chunk_size:
             if buffer:
-                chunks.append({"text": content[start:end], "start": start,
-                    "end": end, "path": buffer_path,})
+                chunks.append({"text": buffer, "start": buffer_start,
+                    "end": buffer_end, "path": buffer_path,})
                 buffer = ""
                 buffer_start = None
                 buffer_end = None
@@ -122,7 +123,7 @@ def tree_walk(node, content: str, offsets: List[int], path: List[str], chunks: L
             buffer_end = end
         else:
             chunks.append({"text": buffer, "start": buffer_start,
-                           "end": start, "path": buffer_path})
+                           "end": buffer_start, "path": buffer_path})
             buffer = text
             buffer_start = start
             buffer_end = end
