@@ -1,39 +1,8 @@
-from .chunker import Chunker
+from .corpus import Corpus
 from typing import List, Dict
-import re
+import os, json
 from math import log
 
-# 'r' prevents py from interpreting special chars
-# before reg engine sees them.
-# but i dont need it here
-TOKEN_PATTERN = re.compile(r"[a-z0-9_]+")
-
-class Corpus:
-    @staticmethod
-    def tokenize(text: str) -> List[str]:
-        if not isinstance(text, str):
-            raise TypeError("text must be a string")
-
-        text = text.lower()
-        tokens: List[str] = TOKEN_PATTERN.findall(text)
-        results: List[str] = []
-
-        for token in tokens:
-            results.append(token)
-            if "_" in token:
-                parts = [part for part in token.split("_") if part]
-                results.extend(parts)
-        return results
-
-    def __init__(self, chunker: Chunker):
-        self.chunker = chunker
-        self.corpus = [ {"file":file["file"], **chunk}
-            for file in chunker.md_chunks + chunker.py_chunks
-            for chunk in file["chunks"]
-        ]
-        self.documents = [ self.tokenize(chunk["text"])
-            for chunk in self.corpus
-        ]
 
 class Indexer:
     def term_freq_indexer(self, docs: List[List[str]]) -> Dict[str, Dict[int, int]]:
@@ -92,6 +61,40 @@ class Indexer:
         self.avgdl = self.average_doc_len() # avrg doc len
         self.DF = self.df() # doc freq for each term
         self.IDF = self.idf()
+    
+    def save(self, path: str):
+        data = {
+            "N": self.N,
+            "TF": self.TF,
+            "DL": self.DL,
+            "avgdl": self.avgdl,
+            "DF": self.DF,
+            "IDF": self.IDF,
+            "corpus": self.corpus.corpus,
+        }
+        os.makedirs('data/processed', exist_ok=True)
+        with open(path, "w") as js:
+            json.dump(data, js, indent=4)
+
+    @classmethod
+    def load(cls, path: str) -> "Indexer":
+        with open(path, "r") as js:
+            data = json.load(js)
+
+        indexer = cls.__new__(cls)
+
+        indexer.N = data["N"]
+        indexer.TF = {
+            term: {int(doc_id): tf for doc_id, tf in docs.items()}
+            for term, docs in data["TF"].items()
+        }
+        indexer.DL = {int(doc_id): length for doc_id, length in data["DL"].items()}
+        indexer.avgdl = data["avgdl"]
+        indexer.DF = data["DF"]
+        indexer.IDF = data["IDF"]
+        indexer.corpus = Corpus.convert_to_corpus(data["corpus"])
+
+        return indexer
 
 
 if __name__ == "__main__":
@@ -102,9 +105,23 @@ if __name__ == "__main__":
             ["socket", "programming"],
         ]
 
+        corpus = [
+            {"file": "test.py", "text": "python socket server"},
+            {"file": "test.py", "text": "python python server"},
+            {"file": "test.py", "text": "socket programming"},
+        ]
+
     query = ["python"]
 
     indexer = Indexer(TestCorpus())
+    indexer.save("data/processed/index.json")
+    loaded = Indexer.load("data/processed/index.json")
 
+    # Compare
     for doc_id in range(len(TestCorpus.documents)):
-        print(f"doc {doc_id}: {indexer.bm25_score(query, doc_id)}")
+        original = indexer.bm25_score(query, doc_id)
+        restored = loaded.bm25_score(query, doc_id)
+
+        print(f"doc {doc_id}:")
+        print(f"  original: {original}")
+        print(f"  loaded:   {restored}")
