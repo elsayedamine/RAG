@@ -1,0 +1,2687 @@
+{
+    "N": 11,
+    "TF": {
+        "the": {
+            "0": 5,
+            "1": 1,
+            "3": 1,
+            "6": 2,
+            "7": 7,
+            "9": 1,
+            "10": 2
+        },
+        "big": {
+            "0": 1
+        },
+        "picture": {
+            "0": 1
+        },
+        "purpose": {
+            "0": 1,
+            "9": 1
+        },
+        "core": {
+            "0": 1
+        },
+        "concept": {
+            "0": 1
+        },
+        "large": {
+            "0": 1
+        },
+        "language": {
+            "0": 2
+        },
+        "models": {
+            "0": 1
+        },
+        "llms": {
+            "0": 1
+        },
+        "like": {
+            "0": 3,
+            "2": 1
+        },
+        "qwen3": {
+            "0": 1,
+            "1": 1
+        },
+        "0": {
+            "0": 1,
+            "1": 1,
+            "3": 1,
+            "10": 1
+        },
+        "6b": {
+            "0": 1,
+            "1": 1
+        },
+        "have": {
+            "0": 1
+        },
+        "a": {
+            "0": 3,
+            "1": 1,
+            "3": 3
+        },
+        "fixed": {
+            "0": 1
+        },
+        "cutoff": {
+            "0": 1
+        },
+        "date": {
+            "0": 1
+        },
+        "and": {
+            "0": 1,
+            "1": 3,
+            "2": 3,
+            "3": 3
+        },
+        "zero": {
+            "0": 1
+        },
+        "knowledge": {
+            "0": 1
+        },
+        "of": {
+            "0": 3,
+            "1": 1,
+            "6": 1,
+            "7": 2,
+            "10": 1
+        },
+        "private": {
+            "0": 1
+        },
+        "repositories": {
+            "0": 1
+        },
+        "vllm": {
+            "0": 1,
+            "7": 2
+        },
+        "retraining": {
+            "0": 1
+        },
+        "an": {
+            "0": 2,
+            "1": 1,
+            "3": 1
+        },
+        "llm": {
+            "0": 4
+        },
+        "every": {
+            "0": 1
+        },
+        "time": {
+            "0": 1,
+            "7": 1
+        },
+        "codebase": {
+            "0": 2
+        },
+        "changes": {
+            "0": 1
+        },
+        "is": {
+            "0": 1,
+            "2": 1,
+            "3": 1,
+            "7": 2,
+            "9": 2
+        },
+        "impractically": {
+            "0": 1
+        },
+        "expensive": {
+            "0": 1
+        },
+        "retrieval": {
+            "0": 2,
+            "1": 1
+        },
+        "augmented": {
+            "0": 1
+        },
+        "generation": {
+            "0": 2,
+            "1": 1
+        },
+        "rag": {
+            "0": 1
+        },
+        "solves": {
+            "0": 1
+        },
+        "this": {
+            "0": 1,
+            "2": 1,
+            "6": 1,
+            "7": 4
+        },
+        "by": {
+            "0": 1,
+            "10": 2
+        },
+        "bridging": {
+            "0": 1
+        },
+        "information": {
+            "0": 1
+        },
+        "search": {
+            "0": 1,
+            "2": 2
+        },
+        "engines": {
+            "0": 1
+        },
+        "with": {
+            "0": 1,
+            "2": 1,
+            "5": 1,
+            "6": 2,
+            "7": 4,
+            "9": 1,
+            "10": 2
+        },
+        "natural": {
+            "0": 1
+        },
+        "instead": {
+            "0": 1
+        },
+        "relying": {
+            "0": 1
+        },
+        "on": {
+            "0": 2,
+            "1": 1
+        },
+        "s": {
+            "0": 2,
+            "7": 1
+        },
+        "memory": {
+            "0": 1,
+            "9": 2
+        },
+        "your": {
+            "0": 1,
+            "1": 1
+        },
+        "system": {
+            "0": 1
+        },
+        "acts": {
+            "0": 1
+        },
+        "automated": {
+            "0": 1
+        },
+        "open": {
+            "0": 1,
+            "5": 1,
+            "6": 1,
+            "7": 2,
+            "10": 2
+        },
+        "book": {
+            "0": 1
+        },
+        "exam": {
+            "0": 1
+        },
+        "assistant": {
+            "0": 1
+        },
+        "1": {
+            "0": 1,
+            "1": 1,
+            "3": 12
+        },
+        "it": {
+            "0": 2,
+            "10": 1
+        },
+        "searches": {
+            "0": 1,
+            "1": 1
+        },
+        "thousands": {
+            "0": 1,
+            "1": 1
+        },
+        "files": {
+            "0": 1,
+            "1": 2
+        },
+        "to": {
+            "0": 1,
+            "1": 1,
+            "6": 1,
+            "7": 6,
+            "9": 2,
+            "10": 4
+        },
+        "find": {
+            "0": 1,
+            "9": 2
+        },
+        "exact": {
+            "0": 1
+        },
+        "relevant": {
+            "0": 1
+        },
+        "code": {
+            "0": 1,
+            "2": 2
+        },
+        "documentation": {
+            "0": 1,
+            "2": 1
+        },
+        "snippets": {
+            "0": 3,
+            "1": 1
+        },
+        "2": {
+            "0": 1,
+            "1": 1,
+            "3": 3
+        },
+        "injects": {
+            "0": 1
+        },
+        "those": {
+            "0": 1
+        },
+        "specific": {
+            "0": 1
+        },
+        "into": {
+            "0": 1,
+            "1": 2,
+            "3": 1,
+            "10": 1
+        },
+        "small": {
+            "0": 1
+        },
+        "context": {
+            "0": 1,
+            "1": 1
+        },
+        "window": {
+            "0": 1
+        },
+        "3": {
+            "0": 1,
+            "1": 1
+        },
+        "synthesizes": {
+            "0": 1
+        },
+        "grounded": {
+            "0": 1
+        },
+        "answer": {
+            "0": 1
+        },
+        "based": {
+            "0": 1
+        },
+        "strictly": {
+            "0": 1
+        },
+        "provided": {
+            "0": 1
+        },
+        "4": {
+            "1": 2
+        },
+        "key": {
+            "1": 1,
+            "3": 11,
+            "9": 1
+        },
+        "pipeline": {
+            "1": 1,
+            "6": 1
+        },
+        "stages": {
+            "1": 1
+        },
+        "ingestion": {
+            "1": 1
+        },
+        "chunking": {
+            "1": 1,
+            "2": 1
+        },
+        "loading": {
+            "1": 1
+        },
+        "py": {
+            "1": 1
+        },
+        "md": {
+            "1": 1,
+            "3": 8,
+            "10": 12
+        },
+        "chopping": {
+            "1": 1
+        },
+        "them": {
+            "1": 1
+        },
+        "smart": {
+            "1": 1
+        },
+        "rich": {
+            "1": 1
+        },
+        "chunks": {
+            "1": 1
+        },
+        "under": {
+            "1": 1
+        },
+        "2000": {
+            "1": 1
+        },
+        "characters": {
+            "1": 1
+        },
+        "indexing": {
+            "1": 1
+        },
+        "building": {
+            "1": 1
+        },
+        "inverted": {
+            "1": 1
+        },
+        "index": {
+            "1": 1,
+            "6": 4,
+            "9": 1
+        },
+        "bm25": {
+            "1": 1,
+            "2": 2
+        },
+        "or": {
+            "1": 1,
+            "3": 2
+        },
+        "tf": {
+            "1": 1,
+            "2": 1
+        },
+        "idf": {
+            "1": 1,
+            "2": 1
+        },
+        "local": {
+            "1": 1
+        },
+        "disk": {
+            "1": 1
+        },
+        "so": {
+            "1": 1
+        },
+        "run": {
+            "1": 1
+        },
+        "in": {
+            "1": 1,
+            "2": 1,
+            "3": 3,
+            "6": 4,
+            "7": 3,
+            "9": 2,
+            "10": 4
+        },
+        "milliseconds": {
+            "1": 1
+        },
+        "across": {
+            "1": 1
+        },
+        "parsing": {
+            "1": 1,
+            "2": 1
+        },
+        "user": {
+            "1": 1
+        },
+        "queries": {
+            "1": 1
+        },
+        "extracting": {
+            "1": 1
+        },
+        "top": {
+            "1": 1
+        },
+        "k": {
+            "1": 1,
+            "2": 1,
+            "3": 5
+        },
+        "candidate": {
+            "1": 1
+        },
+        "source": {
+            "1": 1
+        },
+        "locations": {
+            "1": 1
+        },
+        "file_path": {
+            "1": 1
+        },
+        "file": {
+            "1": 1,
+            "5": 1,
+            "6": 2,
+            "7": 4,
+            "8": 1,
+            "10": 4
+        },
+        "path": {
+            "1": 1,
+            "4": 1
+        },
+        "start": {
+            "1": 1
+        },
+        "character": {
+            "1": 2
+        },
+        "end": {
+            "1": 1
+        },
+        "grounding": {
+            "1": 1
+        },
+        "formatting": {
+            "1": 1
+        },
+        "retrieved": {
+            "1": 1
+        },
+        "tight": {
+            "1": 1
+        },
+        "prompt": {
+            "1": 1
+        },
+        "for": {
+            "1": 1,
+            "4": 1,
+            "6": 2,
+            "7": 1,
+            "9": 2,
+            "10": 1
+        },
+        "generate": {
+            "1": 1
+        },
+        "json": {
+            "1": 1,
+            "5": 1,
+            "6": 1,
+            "7": 2,
+            "9": 4,
+            "10": 7
+        },
+        "formatted": {
+            "1": 1
+        },
+        "answers": {
+            "1": 1
+        },
+        "without": {
+            "1": 1
+        },
+        "hallucinating": {
+            "1": 1
+        },
+        "what": {
+            "2": 1
+        },
+        "you": {
+            "2": 1
+        },
+        "will": {
+            "2": 1
+        },
+        "master": {
+            "2": 1
+        },
+        "after": {
+            "2": 1
+        },
+        "completing": {
+            "2": 1
+        },
+        "project": {
+            "2": 1
+        },
+        "engineering": {
+            "2": 1
+        },
+        "how": {
+            "2": 2
+        },
+        "lexical": {
+            "2": 1
+        },
+        "ranking": {
+            "2": 1
+        },
+        "algorithms": {
+            "2": 1
+        },
+        "work": {
+            "2": 1
+        },
+        "mathematically": {
+            "2": 2
+        },
+        "vs": {
+            "2": 1
+        },
+        "term": {
+            "2": 1
+        },
+        "saturation": {
+            "2": 1
+        },
+        "length": {
+            "2": 1
+        },
+        "normalization": {
+            "2": 1
+        },
+        "strategies": {
+            "2": 1
+        },
+        "why": {
+            "2": 1
+        },
+        "requires": {
+            "2": 2
+        },
+        "structural": {
+            "2": 1
+        },
+        "ast": {
+            "2": 1
+        },
+        "abstract": {
+            "2": 1
+        },
+        "syntax": {
+            "2": 1
+        },
+        "tree": {
+            "2": 1
+        },
+        "while": {
+            "2": 1,
+            "3": 2
+        },
+        "markdown": {
+            "2": 1,
+            "10": 6
+        },
+        "structure": {
+            "2": 1
+        },
+        "evaluation": {
+            "2": 1
+        },
+        "metrics": {
+            "2": 1
+        },
+        "accuracy": {
+            "2": 1
+        },
+        "evaluated": {
+            "2": 1
+        },
+        "industry": {
+            "2": 1
+        },
+        "using": {
+            "2": 1
+        },
+        "recall": {
+            "2": 1
+        },
+        "intersection": {
+            "2": 1
+        },
+        "over": {
+            "2": 1
+        },
+        "union": {
+            "2": 1
+        },
+        "iou": {
+            "2": 1
+        },
+        "production": {
+            "2": 1
+        },
+        "python": {
+            "2": 1
+        },
+        "architecture": {
+            "2": 1
+        },
+        "advanced": {
+            "2": 1
+        },
+        "strict": {
+            "2": 2
+        },
+        "typing": {
+            "2": 1
+        },
+        "mypy": {
+            "2": 1
+        },
+        "linter": {
+            "2": 1
+        },
+        "compliance": {
+            "2": 1
+        },
+        "flake8": {
+            "2": 1
+        },
+        "pydantic": {
+            "2": 1
+        },
+        "validation": {
+            "2": 1
+        },
+        "schemas": {
+            "2": 1
+        },
+        "dependency": {
+            "2": 1
+        },
+        "locking": {
+            "2": 1
+        },
+        "uv": {
+            "2": 1
+        },
+        "cli": {
+            "2": 1
+        },
+        "design": {
+            "2": 1
+        },
+        "parse": {
+            "3": 1,
+            "4": 1,
+            "6": 8
+        },
+        "client_command": {
+            "3": 2,
+            "6": 4
+        },
+        "client": {
+            "3": 2,
+            "6": 8
+        },
+        "command": {
+            "3": 2,
+            "6": 17,
+            "7": 8
+        },
+        "shell": {
+            "3": 1
+        },
+        "string": {
+            "3": 1,
+            "10": 1
+        },
+        "executable": {
+            "3": 5
+        },
+        "script": {
+            "3": 5
+        },
+        "args": {
+            "3": 9,
+            "4": 3,
+            "6": 8
+        },
+        "toks": {
+            "3": 12
+        },
+        "shlex": {
+            "3": 1
+        },
+        "split": {
+            "3": 4,
+            "10": 2
+        },
+        "cmd": {
+            "3": 1
+        },
+        "if": {
+            "3": 10,
+            "4": 1,
+            "6": 2,
+            "9": 6,
+            "10": 1
+        },
+        "len": {
+            "3": 4,
+            "6": 4,
+            "10": 1
+        },
+        "raise": {
+            "3": 1,
+            "4": 1
+        },
+        "valueerror": {
+            "3": 1
+        },
+        "must": {
+            "3": 1
+        },
+        "include": {
+            "3": 1
+        },
+        "dict": {
+            "3": 1,
+            "6": 2,
+            "9": 4,
+            "10": 3
+        },
+        "str": {
+            "3": 1,
+            "4": 1,
+            "6": 2,
+            "7": 1
+        },
+        "any": {
+            "3": 1,
+            "6": 2
+        },
+        "i": {
+            "3": 15
+        },
+        "t": {
+            "3": 5
+        },
+        "startswith": {
+            "3": 3
+        },
+        "value": {
+            "3": 3
+        },
+        "boolean": {
+            "3": 1
+        },
+        "flag": {
+            "3": 4
+        },
+        "val": {
+            "3": 6
+        },
+        "metadata": {
+            "3": 3
+        },
+        "v": {
+            "3": 5
+        },
+        "_coerce": {
+            "3": 4
+        },
+        "coerce": {
+            "3": 4
+        },
+        "else": {
+            "3": 5
+        },
+        "true": {
+            "3": 4,
+            "9": 1,
+            "10": 2
+        },
+        "continue": {
+            "3": 2,
+            "6": 2,
+            "7": 4,
+            "10": 1
+        },
+        "special": {
+            "3": 1
+        },
+        "consume": {
+            "3": 1
+        },
+        "pairs": {
+            "3": 1
+        },
+        "until": {
+            "3": 1
+        },
+        "next": {
+            "3": 2
+        },
+        "not": {
+            "3": 3,
+            "4": 2,
+            "9": 5
+        },
+        "pair": {
+            "3": 4
+        },
+        "standard": {
+            "3": 1
+        },
+        "check": {
+            "3": 1
+        },
+        "token": {
+            "3": 1
+        },
+        "lone": {
+            "3": 1
+        },
+        "unexpected": {
+            "3": 1
+        },
+        "positional": {
+            "3": 1
+        },
+        "skip": {
+            "3": 1
+        },
+        "return": {
+            "3": 1
+        },
+        "parser": {
+            "4": 3
+        },
+        "argparse": {
+            "4": 1
+        },
+        "argumentparser": {
+            "4": 1
+        },
+        "add_argument": {
+            "4": 1
+        },
+        "add": {
+            "4": 1,
+            "6": 2,
+            "7": 2
+        },
+        "argument": {
+            "4": 1
+        },
+        "r": {
+            "4": 1
+        },
+        "result": {
+            "4": 2,
+            "5": 1,
+            "6": 8,
+            "7": 20,
+            "10": 1
+        },
+        "type": {
+            "4": 1
+        },
+        "default": {
+            "4": 1
+        },
+        "results": {
+            "4": 6,
+            "6": 1,
+            "7": 2,
+            "9": 29,
+            "10": 23
+        },
+        "help": {
+            "4": 1
+        },
+        "folder": {
+            "4": 5,
+            "10": 2
+        },
+        "name": {
+            "4": 1,
+            "6": 4,
+            "7": 6,
+            "10": 2
+        },
+        "benchmark": {
+            "4": 1,
+            "10": 2
+        },
+        "output": {
+            "4": 1,
+            "6": 2
+        },
+        "parse_args": {
+            "4": 1,
+            "6": 4
+        },
+        "results_folder": {
+            "4": 3,
+            "10": 2
+        },
+        "exists": {
+            "4": 1
+        },
+        "filenotfounderror": {
+            "4": 1
+        },
+        "f": {
+            "4": 1,
+            "5": 2,
+            "6": 2,
+            "7": 7,
+            "8": 1,
+            "10": 5
+        },
+        "does": {
+            "4": 1
+        },
+        "exist": {
+            "4": 1
+        },
+        "test_file": {
+            "5": 1,
+            "6": 2,
+            "7": 4,
+            "8": 1
+        },
+        "test": {
+            "5": 1,
+            "6": 4,
+            "7": 8,
+            "8": 1,
+            "10": 2
+        },
+        "as": {
+            "5": 1,
+            "6": 2,
+            "7": 4,
+            "10": 2
+        },
+        "raw_result": {
+            "5": 1,
+            "6": 6,
+            "7": 14
+        },
+        "raw": {
+            "5": 1,
+            "6": 6,
+            "7": 14,
+            "9": 2
+        },
+        "loads": {
+            "5": 1,
+            "6": 1,
+            "7": 2
+        },
+        "read": {
+            "5": 1,
+            "6": 1,
+            "7": 2,
+            "10": 1
+        },
+        "try": {
+            "6": 1,
+            "7": 2
+        },
+        "with_suffix": {
+            "6": 1,
+            "7": 2
+        },
+        "suffix": {
+            "6": 1,
+            "7": 2
+        },
+        "commands": {
+            "6": 1,
+            "7": 2
+        },
+        "except": {
+            "6": 1,
+            "7": 2
+        },
+        "oserror": {
+            "6": 1,
+            "7": 2
+        },
+        "e": {
+            "6": 2,
+            "7": 4
+        },
+        "print": {
+            "6": 1,
+            "7": 2,
+            "8": 1
+        },
+        "server": {
+            "6": 6
+        },
+        "arg": {
+            "6": 8
+        },
+        "out": {
+            "6": 6
+        },
+        "server_command": {
+            "6": 4
+        },
+        "parse_client_command": {
+            "6": 2
+        },
+        "tensor": {
+            "6": 1
+        },
+        "parallel": {
+            "6": 2
+        },
+        "size": {
+            "6": 4,
+            "9": 1
+        },
+        "dtype": {
+            "6": 2
+        },
+        "col_mapping": {
+            "6": 4
+        },
+        "col": {
+            "6": 4,
+            "9": 3
+        },
+        "mapping": {
+            "6": 4,
+            "9": 6
+        },
+        "tp_size": {
+            "6": 1
+        },
+        "tp": {
+            "6": 1
+        },
+        "pp_size": {
+            "6": 1
+        },
+        "pp": {
+            "6": 1
+        },
+        "enumerate": {
+            "6": 2
+        },
+        "update": {
+            "6": 5,
+            "7": 7
+        },
+        "dataset": {
+            "6": 2
+        },
+        "random": {
+            "6": 2
+        },
+        "input": {
+            "6": 2
+        },
+        "request": {
+            "6": 1
+        },
+        "rate": {
+            "6": 1
+        },
+        "dataset_name": {
+            "6": 1
+        },
+        "input_len": {
+            "6": 1
+        },
+        "output_len": {
+            "6": 1
+        },
+        "qps": {
+            "6": 1
+        },
+        "test_name": {
+            "6": 1,
+            "7": 2
+        },
+        "stem": {
+            "6": 1,
+            "7": 2
+        },
+        "serving_results": {
+            "6": 1,
+            "9": 8,
+            "10": 3
+        },
+        "serving": {
+            "6": 1,
+            "9": 10,
+            "10": 6
+        },
+        "append": {
+            "6": 1,
+            "7": 2
+        },
+        "elif": {
+            "7": 2
+        },
+        "latency": {
+            "7": 5,
+            "9": 9,
+            "10": 6
+        },
+        "generated": {
+            "7": 2
+        },
+        "via": {
+            "7": 2
+        },
+        "bench": {
+            "7": 2
+        },
+        "attach": {
+            "7": 2
+        },
+        "benchmarking": {
+            "7": 2,
+            "10": 2
+        },
+        "get": {
+            "7": 1,
+            "9": 4,
+            "10": 1
+        },
+        "different": {
+            "7": 1
+        },
+        "percentiles": {
+            "7": 2
+        },
+        "perc": {
+            "7": 3
+        },
+        "10": {
+            "7": 1
+        },
+        "25": {
+            "7": 1
+        },
+        "50": {
+            "7": 1
+        },
+        "75": {
+            "7": 1
+        },
+        "90": {
+            "7": 1
+        },
+        "99": {
+            "7": 1
+        },
+        "multiply": {
+            "7": 1
+        },
+        "1000": {
+            "7": 3
+        },
+        "convert": {
+            "7": 1
+        },
+        "unit": {
+            "7": 1,
+            "9": 1
+        },
+        "from": {
+            "7": 1,
+            "9": 6
+        },
+        "ms": {
+            "7": 1
+        },
+        "p": {
+            "7": 1
+        },
+        "avg_latency": {
+            "7": 2
+        },
+        "avg": {
+            "7": 2
+        },
+        "latency_results": {
+            "7": 1,
+            "9": 7,
+            "10": 3
+        },
+        "throughput": {
+            "7": 3,
+            "9": 9,
+            "10": 6
+        },
+        "throughput_results": {
+            "7": 1,
+            "9": 7,
+            "10": 3
+        },
+        "skipping": {
+            "8": 1
+        },
+        "pd": {
+            "9": 4
+        },
+        "dataframe": {
+            "9": 4
+        },
+        "from_dict": {
+            "9": 4
+        },
+        "svmem": {
+            "9": 2
+        },
+        "psutil": {
+            "9": 3
+        },
+        "virtual_memory": {
+            "9": 1
+        },
+        "virtual": {
+            "9": 1
+        },
+        "platform_data": {
+            "9": 4
+        },
+        "platform": {
+            "9": 6,
+            "10": 4
+        },
+        "data": {
+            "9": 4
+        },
+        "physical": {
+            "9": 1
+        },
+        "cores": {
+            "9": 2
+        },
+        "cpu_count": {
+            "9": 2
+        },
+        "cpu": {
+            "9": 5
+        },
+        "count": {
+            "9": 2
+        },
+        "logical": {
+            "9": 2
+        },
+        "false": {
+            "9": 1,
+            "10": 3
+        },
+        "total": {
+            "9": 4
+        },
+        "get_size_with_unit": {
+            "9": 1
+        },
+        "util": {
+            "9": 2
+        },
+        "find_spec": {
+            "9": 2
+        },
+        "spec": {
+            "9": 2
+        },
+        "numa": {
+            "9": 3
+        },
+        "none": {
+            "9": 2
+        },
+        "import": {
+            "9": 2
+        },
+        "info": {
+            "9": 5
+        },
+        "nodes": {
+            "9": 2
+        },
+        "get_num_configured_nodes": {
+            "9": 1
+        },
+        "num": {
+            "9": 1
+        },
+        "configured": {
+            "9": 1
+        },
+        "cpuinfo": {
+            "9": 2
+        },
+        "get_cpu_info": {
+            "9": 2
+        },
+        "brand": {
+            "9": 2
+        },
+        "brand_raw": {
+            "9": 1
+        },
+        "platform_results": {
+            "9": 1,
+            "10": 1
+        },
+        "orient": {
+            "9": 1,
+            "10": 3
+        },
+        "columns": {
+            "9": 7,
+            "10": 1
+        },
+        "raw_results_json": {
+            "9": 1
+        },
+        "results_to_json": {
+            "9": 2
+        },
+        "remapping": {
+            "9": 1
+        },
+        "visualization": {
+            "9": 1
+        },
+        "empty": {
+            "9": 3,
+            "10": 1
+        },
+        "list": {
+            "9": 2
+        },
+        "latency_column_mapping": {
+            "9": 2
+        },
+        "column": {
+            "9": 6
+        },
+        "keys": {
+            "9": 2,
+            "10": 4
+        },
+        "rename": {
+            "9": 3
+        },
+        "valid_columns": {
+            "9": 2
+        },
+        "valid": {
+            "9": 2
+        },
+        "serving_column_mapping": {
+            "9": 2
+        },
+        "throughput_results_column_mapping": {
+            "9": 2
+        },
+        "processed_results_json": {
+            "9": 1,
+            "10": 1
+        },
+        "processed": {
+            "9": 1,
+            "10": 1
+        },
+        "df": {
+            "10": 5
+        },
+        "sort": {
+            "10": 2
+        },
+        "all": {
+            "10": 1
+        },
+        "dataframes": {
+            "10": 1
+        },
+        "their": {
+            "10": 1
+        },
+        "respective": {
+            "10": 1
+        },
+        "sort_values": {
+            "10": 1
+        },
+        "values": {
+            "10": 1
+        },
+        "inplace": {
+            "10": 1
+        },
+        "gpus": {
+            "10": 1
+        },
+        "sometimes": {
+            "10": 1
+        },
+        "come": {
+            "10": 1
+        },
+        "format": {
+            "10": 2
+        },
+        "gputype": {
+            "10": 1
+        },
+        "ngputype": {
+            "10": 1
+        },
+        "n": {
+            "10": 3
+        },
+        "we": {
+            "10": 1
+        },
+        "want": {
+            "10": 1
+        },
+        "turn": {
+            "10": 1
+        },
+        "8xgputype": {
+            "10": 1
+        },
+        "gpu": {
+            "10": 2
+        },
+        "apply": {
+            "10": 1
+        },
+        "lambda": {
+            "10": 1
+        },
+        "x": {
+            "10": 4
+        },
+        "tables": {
+            "10": 1
+        },
+        "latency_md_table": {
+            "10": 2
+        },
+        "table": {
+            "10": 12
+        },
+        "tabulate": {
+            "10": 4
+        },
+        "headers": {
+            "10": 4
+        },
+        "tablefmt": {
+            "10": 4
+        },
+        "pipe": {
+            "10": 4
+        },
+        "showindex": {
+            "10": 4
+        },
+        "serving_md_table": {
+            "10": 2
+        },
+        "throughput_md_table": {
+            "10": 2
+        },
+        "platform_md_table": {
+            "10": 2
+        },
+        "document": {
+            "10": 2
+        },
+        "md_file": {
+            "10": 2
+        },
+        "benchmark_results": {
+            "10": 2
+        },
+        "json_file": {
+            "10": 2
+        },
+        "w": {
+            "10": 2
+        },
+        "read_markdown": {
+            "10": 1
+        },
+        "buildkite": {
+            "10": 1
+        },
+        "nightly": {
+            "10": 1
+        },
+        "benchmarks": {
+            "10": 2
+        },
+        "performance": {
+            "10": 1
+        },
+        "descriptions": {
+            "10": 1
+        },
+        "latency_tests_markdown_table": {
+            "10": 1
+        },
+        "tests": {
+            "10": 3
+        },
+        "throughput_tests_markdown_table": {
+            "10": 1
+        },
+        "serving_tests_markdown_table": {
+            "10": 1
+        },
+        "platform_markdown_table": {
+            "10": 1
+        },
+        "benchmarking_results_in_json_string": {
+            "10": 1
+        },
+        "write": {
+            "10": 2
+        },
+        "to_dict": {
+            "10": 3
+        },
+        "records": {
+            "10": 3
+        },
+        "dumps": {
+            "10": 1
+        }
+    },
+    "DL": {
+        "0": 112,
+        "1": 87,
+        "2": 83,
+        "3": 209,
+        "4": 48,
+        "5": 14,
+        "6": 210,
+        "7": 218,
+        "8": 6,
+        "9": 264,
+        "10": 263
+    },
+    "avgdl": 137.63636363636363,
+    "DF": {
+        "the": 7,
+        "big": 1,
+        "picture": 1,
+        "purpose": 2,
+        "core": 1,
+        "concept": 1,
+        "large": 1,
+        "language": 1,
+        "models": 1,
+        "llms": 1,
+        "like": 2,
+        "qwen3": 2,
+        "0": 4,
+        "6b": 2,
+        "have": 1,
+        "a": 3,
+        "fixed": 1,
+        "cutoff": 1,
+        "date": 1,
+        "and": 4,
+        "zero": 1,
+        "knowledge": 1,
+        "of": 5,
+        "private": 1,
+        "repositories": 1,
+        "vllm": 2,
+        "retraining": 1,
+        "an": 3,
+        "llm": 1,
+        "every": 1,
+        "time": 2,
+        "codebase": 1,
+        "changes": 1,
+        "is": 5,
+        "impractically": 1,
+        "expensive": 1,
+        "retrieval": 2,
+        "augmented": 1,
+        "generation": 2,
+        "rag": 1,
+        "solves": 1,
+        "this": 4,
+        "by": 2,
+        "bridging": 1,
+        "information": 1,
+        "search": 2,
+        "engines": 1,
+        "with": 7,
+        "natural": 1,
+        "instead": 1,
+        "relying": 1,
+        "on": 2,
+        "s": 2,
+        "memory": 2,
+        "your": 2,
+        "system": 1,
+        "acts": 1,
+        "automated": 1,
+        "open": 5,
+        "book": 1,
+        "exam": 1,
+        "assistant": 1,
+        "1": 3,
+        "it": 2,
+        "searches": 2,
+        "thousands": 2,
+        "files": 2,
+        "to": 6,
+        "find": 2,
+        "exact": 1,
+        "relevant": 1,
+        "code": 2,
+        "documentation": 2,
+        "snippets": 2,
+        "2": 3,
+        "injects": 1,
+        "those": 1,
+        "specific": 1,
+        "into": 4,
+        "small": 1,
+        "context": 2,
+        "window": 1,
+        "3": 2,
+        "synthesizes": 1,
+        "grounded": 1,
+        "answer": 1,
+        "based": 1,
+        "strictly": 1,
+        "provided": 1,
+        "4": 1,
+        "key": 3,
+        "pipeline": 2,
+        "stages": 1,
+        "ingestion": 1,
+        "chunking": 2,
+        "loading": 1,
+        "py": 1,
+        "md": 3,
+        "chopping": 1,
+        "them": 1,
+        "smart": 1,
+        "rich": 1,
+        "chunks": 1,
+        "under": 1,
+        "2000": 1,
+        "characters": 1,
+        "indexing": 1,
+        "building": 1,
+        "inverted": 1,
+        "index": 3,
+        "bm25": 2,
+        "or": 2,
+        "tf": 2,
+        "idf": 2,
+        "local": 1,
+        "disk": 1,
+        "so": 1,
+        "run": 1,
+        "in": 7,
+        "milliseconds": 1,
+        "across": 1,
+        "parsing": 2,
+        "user": 1,
+        "queries": 1,
+        "extracting": 1,
+        "top": 1,
+        "k": 3,
+        "candidate": 1,
+        "source": 1,
+        "locations": 1,
+        "file_path": 1,
+        "file": 6,
+        "path": 2,
+        "start": 1,
+        "character": 1,
+        "end": 1,
+        "grounding": 1,
+        "formatting": 1,
+        "retrieved": 1,
+        "tight": 1,
+        "prompt": 1,
+        "for": 6,
+        "generate": 1,
+        "json": 6,
+        "formatted": 1,
+        "answers": 1,
+        "without": 1,
+        "hallucinating": 1,
+        "what": 1,
+        "you": 1,
+        "will": 1,
+        "master": 1,
+        "after": 1,
+        "completing": 1,
+        "project": 1,
+        "engineering": 1,
+        "how": 1,
+        "lexical": 1,
+        "ranking": 1,
+        "algorithms": 1,
+        "work": 1,
+        "mathematically": 1,
+        "vs": 1,
+        "term": 1,
+        "saturation": 1,
+        "length": 1,
+        "normalization": 1,
+        "strategies": 1,
+        "why": 1,
+        "requires": 1,
+        "structural": 1,
+        "ast": 1,
+        "abstract": 1,
+        "syntax": 1,
+        "tree": 1,
+        "while": 2,
+        "markdown": 2,
+        "structure": 1,
+        "evaluation": 1,
+        "metrics": 1,
+        "accuracy": 1,
+        "evaluated": 1,
+        "industry": 1,
+        "using": 1,
+        "recall": 1,
+        "intersection": 1,
+        "over": 1,
+        "union": 1,
+        "iou": 1,
+        "production": 1,
+        "python": 1,
+        "architecture": 1,
+        "advanced": 1,
+        "strict": 1,
+        "typing": 1,
+        "mypy": 1,
+        "linter": 1,
+        "compliance": 1,
+        "flake8": 1,
+        "pydantic": 1,
+        "validation": 1,
+        "schemas": 1,
+        "dependency": 1,
+        "locking": 1,
+        "uv": 1,
+        "cli": 1,
+        "design": 1,
+        "parse": 3,
+        "client_command": 2,
+        "client": 2,
+        "command": 3,
+        "shell": 1,
+        "string": 2,
+        "executable": 1,
+        "script": 1,
+        "args": 3,
+        "toks": 1,
+        "shlex": 1,
+        "split": 2,
+        "cmd": 1,
+        "if": 5,
+        "len": 3,
+        "raise": 2,
+        "valueerror": 1,
+        "must": 1,
+        "include": 1,
+        "dict": 4,
+        "str": 4,
+        "any": 2,
+        "i": 1,
+        "t": 1,
+        "startswith": 1,
+        "value": 1,
+        "boolean": 1,
+        "flag": 1,
+        "val": 1,
+        "metadata": 1,
+        "v": 1,
+        "_coerce": 1,
+        "coerce": 1,
+        "else": 1,
+        "true": 3,
+        "continue": 4,
+        "special": 1,
+        "consume": 1,
+        "pairs": 1,
+        "until": 1,
+        "next": 1,
+        "not": 3,
+        "pair": 1,
+        "standard": 1,
+        "check": 1,
+        "token": 1,
+        "lone": 1,
+        "unexpected": 1,
+        "positional": 1,
+        "skip": 1,
+        "return": 1,
+        "parser": 1,
+        "argparse": 1,
+        "argumentparser": 1,
+        "add_argument": 1,
+        "add": 3,
+        "argument": 1,
+        "r": 1,
+        "result": 5,
+        "type": 1,
+        "default": 1,
+        "results": 5,
+        "help": 1,
+        "folder": 2,
+        "name": 4,
+        "benchmark": 2,
+        "output": 2,
+        "parse_args": 2,
+        "results_folder": 2,
+        "exists": 1,
+        "filenotfounderror": 1,
+        "f": 6,
+        "does": 1,
+        "exist": 1,
+        "test_file": 4,
+        "test": 5,
+        "as": 4,
+        "raw_result": 3,
+        "raw": 4,
+        "loads": 3,
+        "read": 4,
+        "try": 2,
+        "with_suffix": 2,
+        "suffix": 2,
+        "commands": 2,
+        "except": 2,
+        "oserror": 2,
+        "e": 2,
+        "print": 3,
+        "server": 1,
+        "arg": 1,
+        "out": 1,
+        "server_command": 1,
+        "parse_client_command": 1,
+        "tensor": 1,
+        "parallel": 1,
+        "size": 2,
+        "dtype": 1,
+        "col_mapping": 1,
+        "col": 2,
+        "mapping": 2,
+        "tp_size": 1,
+        "tp": 1,
+        "pp_size": 1,
+        "pp": 1,
+        "enumerate": 1,
+        "update": 2,
+        "dataset": 1,
+        "random": 1,
+        "input": 1,
+        "request": 1,
+        "rate": 1,
+        "dataset_name": 1,
+        "input_len": 1,
+        "output_len": 1,
+        "qps": 1,
+        "test_name": 2,
+        "stem": 2,
+        "serving_results": 3,
+        "serving": 3,
+        "append": 2,
+        "elif": 1,
+        "latency": 3,
+        "generated": 1,
+        "via": 1,
+        "bench": 1,
+        "attach": 1,
+        "benchmarking": 2,
+        "get": 3,
+        "different": 1,
+        "percentiles": 1,
+        "perc": 1,
+        "10": 1,
+        "25": 1,
+        "50": 1,
+        "75": 1,
+        "90": 1,
+        "99": 1,
+        "multiply": 1,
+        "1000": 1,
+        "convert": 1,
+        "unit": 2,
+        "from": 2,
+        "ms": 1,
+        "p": 1,
+        "avg_latency": 1,
+        "avg": 1,
+        "latency_results": 3,
+        "throughput": 3,
+        "throughput_results": 3,
+        "skipping": 1,
+        "pd": 1,
+        "dataframe": 1,
+        "from_dict": 1,
+        "svmem": 1,
+        "psutil": 1,
+        "virtual_memory": 1,
+        "virtual": 1,
+        "platform_data": 1,
+        "platform": 2,
+        "data": 1,
+        "physical": 1,
+        "cores": 1,
+        "cpu_count": 1,
+        "cpu": 1,
+        "count": 1,
+        "logical": 1,
+        "false": 2,
+        "total": 1,
+        "get_size_with_unit": 1,
+        "util": 1,
+        "find_spec": 1,
+        "spec": 1,
+        "numa": 1,
+        "none": 1,
+        "import": 1,
+        "info": 1,
+        "nodes": 1,
+        "get_num_configured_nodes": 1,
+        "num": 1,
+        "configured": 1,
+        "cpuinfo": 1,
+        "get_cpu_info": 1,
+        "brand": 1,
+        "brand_raw": 1,
+        "platform_results": 2,
+        "orient": 2,
+        "columns": 2,
+        "raw_results_json": 1,
+        "results_to_json": 1,
+        "remapping": 1,
+        "visualization": 1,
+        "empty": 2,
+        "list": 1,
+        "latency_column_mapping": 1,
+        "column": 1,
+        "keys": 2,
+        "rename": 1,
+        "valid_columns": 1,
+        "valid": 1,
+        "serving_column_mapping": 1,
+        "throughput_results_column_mapping": 1,
+        "processed_results_json": 2,
+        "processed": 2,
+        "df": 1,
+        "sort": 1,
+        "all": 1,
+        "dataframes": 1,
+        "their": 1,
+        "respective": 1,
+        "sort_values": 1,
+        "values": 1,
+        "inplace": 1,
+        "gpus": 1,
+        "sometimes": 1,
+        "come": 1,
+        "format": 1,
+        "gputype": 1,
+        "ngputype": 1,
+        "n": 1,
+        "we": 1,
+        "want": 1,
+        "turn": 1,
+        "8xgputype": 1,
+        "gpu": 1,
+        "apply": 1,
+        "lambda": 1,
+        "x": 1,
+        "tables": 1,
+        "latency_md_table": 1,
+        "table": 1,
+        "tabulate": 1,
+        "headers": 1,
+        "tablefmt": 1,
+        "pipe": 1,
+        "showindex": 1,
+        "serving_md_table": 1,
+        "throughput_md_table": 1,
+        "platform_md_table": 1,
+        "document": 1,
+        "md_file": 1,
+        "benchmark_results": 1,
+        "json_file": 1,
+        "w": 1,
+        "read_markdown": 1,
+        "buildkite": 1,
+        "nightly": 1,
+        "benchmarks": 1,
+        "performance": 1,
+        "descriptions": 1,
+        "latency_tests_markdown_table": 1,
+        "tests": 1,
+        "throughput_tests_markdown_table": 1,
+        "serving_tests_markdown_table": 1,
+        "platform_markdown_table": 1,
+        "benchmarking_results_in_json_string": 1,
+        "write": 1,
+        "to_dict": 1,
+        "records": 1,
+        "dumps": 1
+    },
+    "IDF": {
+        "the": 0.47000362924573563,
+        "big": 2.0794415416798357,
+        "picture": 2.0794415416798357,
+        "purpose": 1.5686159179138452,
+        "core": 2.0794415416798357,
+        "concept": 2.0794415416798357,
+        "large": 2.0794415416798357,
+        "language": 2.0794415416798357,
+        "models": 2.0794415416798357,
+        "llms": 2.0794415416798357,
+        "like": 1.5686159179138452,
+        "qwen3": 1.5686159179138452,
+        "0": 0.9808292530117263,
+        "6b": 1.5686159179138452,
+        "have": 2.0794415416798357,
+        "a": 1.2321436812926323,
+        "fixed": 2.0794415416798357,
+        "cutoff": 2.0794415416798357,
+        "date": 2.0794415416798357,
+        "and": 0.9808292530117263,
+        "zero": 2.0794415416798357,
+        "knowledge": 2.0794415416798357,
+        "of": 0.780158557549575,
+        "private": 2.0794415416798357,
+        "repositories": 2.0794415416798357,
+        "vllm": 1.5686159179138452,
+        "retraining": 2.0794415416798357,
+        "an": 1.2321436812926323,
+        "llm": 2.0794415416798357,
+        "every": 2.0794415416798357,
+        "time": 1.5686159179138452,
+        "codebase": 2.0794415416798357,
+        "changes": 2.0794415416798357,
+        "is": 0.780158557549575,
+        "impractically": 2.0794415416798357,
+        "expensive": 2.0794415416798357,
+        "retrieval": 1.5686159179138452,
+        "augmented": 2.0794415416798357,
+        "generation": 1.5686159179138452,
+        "rag": 2.0794415416798357,
+        "solves": 2.0794415416798357,
+        "this": 0.9808292530117263,
+        "by": 1.5686159179138452,
+        "bridging": 2.0794415416798357,
+        "information": 2.0794415416798357,
+        "search": 1.5686159179138452,
+        "engines": 2.0794415416798357,
+        "with": 0.47000362924573563,
+        "natural": 2.0794415416798357,
+        "instead": 2.0794415416798357,
+        "relying": 2.0794415416798357,
+        "on": 1.5686159179138452,
+        "s": 1.5686159179138452,
+        "memory": 1.5686159179138452,
+        "your": 1.5686159179138452,
+        "system": 2.0794415416798357,
+        "acts": 2.0794415416798357,
+        "automated": 2.0794415416798357,
+        "open": 0.780158557549575,
+        "book": 2.0794415416798357,
+        "exam": 2.0794415416798357,
+        "assistant": 2.0794415416798357,
+        "1": 1.2321436812926323,
+        "it": 1.5686159179138452,
+        "searches": 1.5686159179138452,
+        "thousands": 1.5686159179138452,
+        "files": 1.5686159179138452,
+        "to": 0.6131044728864089,
+        "find": 1.5686159179138452,
+        "exact": 2.0794415416798357,
+        "relevant": 2.0794415416798357,
+        "code": 1.5686159179138452,
+        "documentation": 1.5686159179138452,
+        "snippets": 1.5686159179138452,
+        "2": 1.2321436812926323,
+        "injects": 2.0794415416798357,
+        "those": 2.0794415416798357,
+        "specific": 2.0794415416798357,
+        "into": 0.9808292530117263,
+        "small": 2.0794415416798357,
+        "context": 1.5686159179138452,
+        "window": 2.0794415416798357,
+        "3": 1.5686159179138452,
+        "synthesizes": 2.0794415416798357,
+        "grounded": 2.0794415416798357,
+        "answer": 2.0794415416798357,
+        "based": 2.0794415416798357,
+        "strictly": 2.0794415416798357,
+        "provided": 2.0794415416798357,
+        "4": 2.0794415416798357,
+        "key": 1.2321436812926323,
+        "pipeline": 1.5686159179138452,
+        "stages": 2.0794415416798357,
+        "ingestion": 2.0794415416798357,
+        "chunking": 1.5686159179138452,
+        "loading": 2.0794415416798357,
+        "py": 2.0794415416798357,
+        "md": 1.2321436812926323,
+        "chopping": 2.0794415416798357,
+        "them": 2.0794415416798357,
+        "smart": 2.0794415416798357,
+        "rich": 2.0794415416798357,
+        "chunks": 2.0794415416798357,
+        "under": 2.0794415416798357,
+        "2000": 2.0794415416798357,
+        "characters": 2.0794415416798357,
+        "indexing": 2.0794415416798357,
+        "building": 2.0794415416798357,
+        "inverted": 2.0794415416798357,
+        "index": 1.2321436812926323,
+        "bm25": 1.5686159179138452,
+        "or": 1.5686159179138452,
+        "tf": 1.5686159179138452,
+        "idf": 1.5686159179138452,
+        "local": 2.0794415416798357,
+        "disk": 2.0794415416798357,
+        "so": 2.0794415416798357,
+        "run": 2.0794415416798357,
+        "in": 0.47000362924573563,
+        "milliseconds": 2.0794415416798357,
+        "across": 2.0794415416798357,
+        "parsing": 1.5686159179138452,
+        "user": 2.0794415416798357,
+        "queries": 2.0794415416798357,
+        "extracting": 2.0794415416798357,
+        "top": 2.0794415416798357,
+        "k": 1.2321436812926323,
+        "candidate": 2.0794415416798357,
+        "source": 2.0794415416798357,
+        "locations": 2.0794415416798357,
+        "file_path": 2.0794415416798357,
+        "file": 0.6131044728864089,
+        "path": 1.5686159179138452,
+        "start": 2.0794415416798357,
+        "character": 2.0794415416798357,
+        "end": 2.0794415416798357,
+        "grounding": 2.0794415416798357,
+        "formatting": 2.0794415416798357,
+        "retrieved": 2.0794415416798357,
+        "tight": 2.0794415416798357,
+        "prompt": 2.0794415416798357,
+        "for": 0.6131044728864089,
+        "generate": 2.0794415416798357,
+        "json": 0.6131044728864089,
+        "formatted": 2.0794415416798357,
+        "answers": 2.0794415416798357,
+        "without": 2.0794415416798357,
+        "hallucinating": 2.0794415416798357,
+        "what": 2.0794415416798357,
+        "you": 2.0794415416798357,
+        "will": 2.0794415416798357,
+        "master": 2.0794415416798357,
+        "after": 2.0794415416798357,
+        "completing": 2.0794415416798357,
+        "project": 2.0794415416798357,
+        "engineering": 2.0794415416798357,
+        "how": 2.0794415416798357,
+        "lexical": 2.0794415416798357,
+        "ranking": 2.0794415416798357,
+        "algorithms": 2.0794415416798357,
+        "work": 2.0794415416798357,
+        "mathematically": 2.0794415416798357,
+        "vs": 2.0794415416798357,
+        "term": 2.0794415416798357,
+        "saturation": 2.0794415416798357,
+        "length": 2.0794415416798357,
+        "normalization": 2.0794415416798357,
+        "strategies": 2.0794415416798357,
+        "why": 2.0794415416798357,
+        "requires": 2.0794415416798357,
+        "structural": 2.0794415416798357,
+        "ast": 2.0794415416798357,
+        "abstract": 2.0794415416798357,
+        "syntax": 2.0794415416798357,
+        "tree": 2.0794415416798357,
+        "while": 1.5686159179138452,
+        "markdown": 1.5686159179138452,
+        "structure": 2.0794415416798357,
+        "evaluation": 2.0794415416798357,
+        "metrics": 2.0794415416798357,
+        "accuracy": 2.0794415416798357,
+        "evaluated": 2.0794415416798357,
+        "industry": 2.0794415416798357,
+        "using": 2.0794415416798357,
+        "recall": 2.0794415416798357,
+        "intersection": 2.0794415416798357,
+        "over": 2.0794415416798357,
+        "union": 2.0794415416798357,
+        "iou": 2.0794415416798357,
+        "production": 2.0794415416798357,
+        "python": 2.0794415416798357,
+        "architecture": 2.0794415416798357,
+        "advanced": 2.0794415416798357,
+        "strict": 2.0794415416798357,
+        "typing": 2.0794415416798357,
+        "mypy": 2.0794415416798357,
+        "linter": 2.0794415416798357,
+        "compliance": 2.0794415416798357,
+        "flake8": 2.0794415416798357,
+        "pydantic": 2.0794415416798357,
+        "validation": 2.0794415416798357,
+        "schemas": 2.0794415416798357,
+        "dependency": 2.0794415416798357,
+        "locking": 2.0794415416798357,
+        "uv": 2.0794415416798357,
+        "cli": 2.0794415416798357,
+        "design": 2.0794415416798357,
+        "parse": 1.2321436812926323,
+        "client_command": 1.5686159179138452,
+        "client": 1.5686159179138452,
+        "command": 1.2321436812926323,
+        "shell": 2.0794415416798357,
+        "string": 1.5686159179138452,
+        "executable": 2.0794415416798357,
+        "script": 2.0794415416798357,
+        "args": 1.2321436812926323,
+        "toks": 2.0794415416798357,
+        "shlex": 2.0794415416798357,
+        "split": 1.5686159179138452,
+        "cmd": 2.0794415416798357,
+        "if": 0.780158557549575,
+        "len": 1.2321436812926323,
+        "raise": 1.5686159179138452,
+        "valueerror": 2.0794415416798357,
+        "must": 2.0794415416798357,
+        "include": 2.0794415416798357,
+        "dict": 0.9808292530117263,
+        "str": 0.9808292530117263,
+        "any": 1.5686159179138452,
+        "i": 2.0794415416798357,
+        "t": 2.0794415416798357,
+        "startswith": 2.0794415416798357,
+        "value": 2.0794415416798357,
+        "boolean": 2.0794415416798357,
+        "flag": 2.0794415416798357,
+        "val": 2.0794415416798357,
+        "metadata": 2.0794415416798357,
+        "v": 2.0794415416798357,
+        "_coerce": 2.0794415416798357,
+        "coerce": 2.0794415416798357,
+        "else": 2.0794415416798357,
+        "true": 1.2321436812926323,
+        "continue": 0.9808292530117263,
+        "special": 2.0794415416798357,
+        "consume": 2.0794415416798357,
+        "pairs": 2.0794415416798357,
+        "until": 2.0794415416798357,
+        "next": 2.0794415416798357,
+        "not": 1.2321436812926323,
+        "pair": 2.0794415416798357,
+        "standard": 2.0794415416798357,
+        "check": 2.0794415416798357,
+        "token": 2.0794415416798357,
+        "lone": 2.0794415416798357,
+        "unexpected": 2.0794415416798357,
+        "positional": 2.0794415416798357,
+        "skip": 2.0794415416798357,
+        "return": 2.0794415416798357,
+        "parser": 2.0794415416798357,
+        "argparse": 2.0794415416798357,
+        "argumentparser": 2.0794415416798357,
+        "add_argument": 2.0794415416798357,
+        "add": 1.2321436812926323,
+        "argument": 2.0794415416798357,
+        "r": 2.0794415416798357,
+        "result": 0.780158557549575,
+        "type": 2.0794415416798357,
+        "default": 2.0794415416798357,
+        "results": 0.780158557549575,
+        "help": 2.0794415416798357,
+        "folder": 1.5686159179138452,
+        "name": 0.9808292530117263,
+        "benchmark": 1.5686159179138452,
+        "output": 1.5686159179138452,
+        "parse_args": 1.5686159179138452,
+        "results_folder": 1.5686159179138452,
+        "exists": 2.0794415416798357,
+        "filenotfounderror": 2.0794415416798357,
+        "f": 0.6131044728864089,
+        "does": 2.0794415416798357,
+        "exist": 2.0794415416798357,
+        "test_file": 0.9808292530117263,
+        "test": 0.780158557549575,
+        "as": 0.9808292530117263,
+        "raw_result": 1.2321436812926323,
+        "raw": 0.9808292530117263,
+        "loads": 1.2321436812926323,
+        "read": 0.9808292530117263,
+        "try": 1.5686159179138452,
+        "with_suffix": 1.5686159179138452,
+        "suffix": 1.5686159179138452,
+        "commands": 1.5686159179138452,
+        "except": 1.5686159179138452,
+        "oserror": 1.5686159179138452,
+        "e": 1.5686159179138452,
+        "print": 1.2321436812926323,
+        "server": 2.0794415416798357,
+        "arg": 2.0794415416798357,
+        "out": 2.0794415416798357,
+        "server_command": 2.0794415416798357,
+        "parse_client_command": 2.0794415416798357,
+        "tensor": 2.0794415416798357,
+        "parallel": 2.0794415416798357,
+        "size": 1.5686159179138452,
+        "dtype": 2.0794415416798357,
+        "col_mapping": 2.0794415416798357,
+        "col": 1.5686159179138452,
+        "mapping": 1.5686159179138452,
+        "tp_size": 2.0794415416798357,
+        "tp": 2.0794415416798357,
+        "pp_size": 2.0794415416798357,
+        "pp": 2.0794415416798357,
+        "enumerate": 2.0794415416798357,
+        "update": 1.5686159179138452,
+        "dataset": 2.0794415416798357,
+        "random": 2.0794415416798357,
+        "input": 2.0794415416798357,
+        "request": 2.0794415416798357,
+        "rate": 2.0794415416798357,
+        "dataset_name": 2.0794415416798357,
+        "input_len": 2.0794415416798357,
+        "output_len": 2.0794415416798357,
+        "qps": 2.0794415416798357,
+        "test_name": 1.5686159179138452,
+        "stem": 1.5686159179138452,
+        "serving_results": 1.2321436812926323,
+        "serving": 1.2321436812926323,
+        "append": 1.5686159179138452,
+        "elif": 2.0794415416798357,
+        "latency": 1.2321436812926323,
+        "generated": 2.0794415416798357,
+        "via": 2.0794415416798357,
+        "bench": 2.0794415416798357,
+        "attach": 2.0794415416798357,
+        "benchmarking": 1.5686159179138452,
+        "get": 1.2321436812926323,
+        "different": 2.0794415416798357,
+        "percentiles": 2.0794415416798357,
+        "perc": 2.0794415416798357,
+        "10": 2.0794415416798357,
+        "25": 2.0794415416798357,
+        "50": 2.0794415416798357,
+        "75": 2.0794415416798357,
+        "90": 2.0794415416798357,
+        "99": 2.0794415416798357,
+        "multiply": 2.0794415416798357,
+        "1000": 2.0794415416798357,
+        "convert": 2.0794415416798357,
+        "unit": 1.5686159179138452,
+        "from": 1.5686159179138452,
+        "ms": 2.0794415416798357,
+        "p": 2.0794415416798357,
+        "avg_latency": 2.0794415416798357,
+        "avg": 2.0794415416798357,
+        "latency_results": 1.2321436812926323,
+        "throughput": 1.2321436812926323,
+        "throughput_results": 1.2321436812926323,
+        "skipping": 2.0794415416798357,
+        "pd": 2.0794415416798357,
+        "dataframe": 2.0794415416798357,
+        "from_dict": 2.0794415416798357,
+        "svmem": 2.0794415416798357,
+        "psutil": 2.0794415416798357,
+        "virtual_memory": 2.0794415416798357,
+        "virtual": 2.0794415416798357,
+        "platform_data": 2.0794415416798357,
+        "platform": 1.5686159179138452,
+        "data": 2.0794415416798357,
+        "physical": 2.0794415416798357,
+        "cores": 2.0794415416798357,
+        "cpu_count": 2.0794415416798357,
+        "cpu": 2.0794415416798357,
+        "count": 2.0794415416798357,
+        "logical": 2.0794415416798357,
+        "false": 1.5686159179138452,
+        "total": 2.0794415416798357,
+        "get_size_with_unit": 2.0794415416798357,
+        "util": 2.0794415416798357,
+        "find_spec": 2.0794415416798357,
+        "spec": 2.0794415416798357,
+        "numa": 2.0794415416798357,
+        "none": 2.0794415416798357,
+        "import": 2.0794415416798357,
+        "info": 2.0794415416798357,
+        "nodes": 2.0794415416798357,
+        "get_num_configured_nodes": 2.0794415416798357,
+        "num": 2.0794415416798357,
+        "configured": 2.0794415416798357,
+        "cpuinfo": 2.0794415416798357,
+        "get_cpu_info": 2.0794415416798357,
+        "brand": 2.0794415416798357,
+        "brand_raw": 2.0794415416798357,
+        "platform_results": 1.5686159179138452,
+        "orient": 1.5686159179138452,
+        "columns": 1.5686159179138452,
+        "raw_results_json": 2.0794415416798357,
+        "results_to_json": 2.0794415416798357,
+        "remapping": 2.0794415416798357,
+        "visualization": 2.0794415416798357,
+        "empty": 1.5686159179138452,
+        "list": 2.0794415416798357,
+        "latency_column_mapping": 2.0794415416798357,
+        "column": 2.0794415416798357,
+        "keys": 1.5686159179138452,
+        "rename": 2.0794415416798357,
+        "valid_columns": 2.0794415416798357,
+        "valid": 2.0794415416798357,
+        "serving_column_mapping": 2.0794415416798357,
+        "throughput_results_column_mapping": 2.0794415416798357,
+        "processed_results_json": 1.5686159179138452,
+        "processed": 1.5686159179138452,
+        "df": 2.0794415416798357,
+        "sort": 2.0794415416798357,
+        "all": 2.0794415416798357,
+        "dataframes": 2.0794415416798357,
+        "their": 2.0794415416798357,
+        "respective": 2.0794415416798357,
+        "sort_values": 2.0794415416798357,
+        "values": 2.0794415416798357,
+        "inplace": 2.0794415416798357,
+        "gpus": 2.0794415416798357,
+        "sometimes": 2.0794415416798357,
+        "come": 2.0794415416798357,
+        "format": 2.0794415416798357,
+        "gputype": 2.0794415416798357,
+        "ngputype": 2.0794415416798357,
+        "n": 2.0794415416798357,
+        "we": 2.0794415416798357,
+        "want": 2.0794415416798357,
+        "turn": 2.0794415416798357,
+        "8xgputype": 2.0794415416798357,
+        "gpu": 2.0794415416798357,
+        "apply": 2.0794415416798357,
+        "lambda": 2.0794415416798357,
+        "x": 2.0794415416798357,
+        "tables": 2.0794415416798357,
+        "latency_md_table": 2.0794415416798357,
+        "table": 2.0794415416798357,
+        "tabulate": 2.0794415416798357,
+        "headers": 2.0794415416798357,
+        "tablefmt": 2.0794415416798357,
+        "pipe": 2.0794415416798357,
+        "showindex": 2.0794415416798357,
+        "serving_md_table": 2.0794415416798357,
+        "throughput_md_table": 2.0794415416798357,
+        "platform_md_table": 2.0794415416798357,
+        "document": 2.0794415416798357,
+        "md_file": 2.0794415416798357,
+        "benchmark_results": 2.0794415416798357,
+        "json_file": 2.0794415416798357,
+        "w": 2.0794415416798357,
+        "read_markdown": 2.0794415416798357,
+        "buildkite": 2.0794415416798357,
+        "nightly": 2.0794415416798357,
+        "benchmarks": 2.0794415416798357,
+        "performance": 2.0794415416798357,
+        "descriptions": 2.0794415416798357,
+        "latency_tests_markdown_table": 2.0794415416798357,
+        "tests": 2.0794415416798357,
+        "throughput_tests_markdown_table": 2.0794415416798357,
+        "serving_tests_markdown_table": 2.0794415416798357,
+        "platform_markdown_table": 2.0794415416798357,
+        "benchmarking_results_in_json_string": 2.0794415416798357,
+        "write": 2.0794415416798357,
+        "to_dict": 2.0794415416798357,
+        "records": 2.0794415416798357,
+        "dumps": 2.0794415416798357
+    },
+    "corpus": [
+        {
+            "file": "data/dir/test.md",
+            "text": "# The Big Picture: Purpose & Core Concept\n\nLarge Language Models (LLMs) like Qwen3-0.6B have a fixed cutoff date and zero knowledge of private repositories like vLLM. Retraining an LLM every time a codebase changes is impractically expensive.\n\nRetrieval-Augmented Generation (RAG) solves this by bridging information retrieval (search engines) with natural language generation. Instead of relying on the LLM's memory, your system acts like an automated open-book exam assistant:  \n\n1. It searches thousands of codebase files to find exact relevant code/documentation snippets.\n2. It injects those specific snippets into the small LLM's context window.\n3. The LLM synthesizes a grounded answer based strictly on the provided snippets.  \n\n",
+            "start": 0,
+            "end": 737,
+            "path": [
+                "The Big Picture: Purpose & Core Concept"
+            ]
+        },
+        {
+            "file": "data/dir/test.md",
+            "text": "# The 4 Key Pipeline Stages\n1. Ingestion & Chunking: Loading .py and .md files and chopping them into smart, context-rich chunks (under 2000 characters).\n2. Indexing: Building an inverted index (BM25 or TF-IDF) on your local disk so searches run in milliseconds across thousands of files.\n3. Retrieval: Parsing user queries and extracting top-$k$ candidate source locations (file_path, start character, end character).\n4. Generation & Grounding: Formatting retrieved snippets into a tight prompt for Qwen3-0.6B to generate JSON-formatted answers without hallucinating.\n\n",
+            "start": 737,
+            "end": 1307,
+            "path": [
+                "The 4 Key Pipeline Stages"
+            ]
+        },
+        {
+            "file": "data/dir/test.md",
+            "text": "# What You Will Master After Completing This Project\n- Search Engineering: How lexical ranking algorithms like BM25 work mathematically (TF-IDF vs BM25 term saturation and length normalization).\n- Code Parsing Strategies: Why code requires structural AST (Abstract Syntax Tree) chunking while documentation requires markdown structure.\n- Evaluation Metrics: How search accuracy is mathematically evaluated in industry using Recall@k and Intersection over Union (IoU).\n- Production Python Architecture: Advanced strict typing (mypy), strict linter compliance (flake8), Pydantic validation schemas, dependency locking with uv, and CLI design.\n\n",
+            "start": 1307,
+            "end": 1949,
+            "path": [
+                "What You Will Master After Completing This Project"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "\"\"\"Parse the client_command shell string into {executable, script, args}.\"\"\"\n    toks = shlex.split(cmd)\n    if len(toks) < 2:\n        raise ValueError(\"client_command must include an executable and a script\")\n    executable, script = toks[0], toks[1]\n    args: dict[str, Any] = {}\n\n    i = 2\n    while i < len(toks):\n        t = toks[i]\n        if t.startswith(\"--\"):\n            # --key=value or --key (value) or boolean flag\n            if \"=\" in t:\n                key, val = t.split(\"=\", 1)\n                if key == \"--metadata\":\n                    md = {}\n                    if val:\n                        if \"=\" in val:\n                            k, v = val.split(\"=\", 1)\n                            md[k] = _coerce(v)\n                        else:\n                            md[val] = True\n                    args[key] = md\n                else:\n                    args[key] = _coerce(val)\n                i += 1\n                continue\n\n            key = t\n\n            # Special: consume metadata k=v pairs until next --flag\n            if key == \"--metadata\":\n                i += 1\n                md = {}\n                while i < len(toks) and not toks[i].startswith(\"--\"):\n                    pair = toks[i]\n                    if \"=\" in pair:\n                        k, v = pair.split(\"=\", 1)\n                        md[k] = _coerce(v)\n                    else:\n                        md[pair] = True\n                    i += 1\n                args[key] = md\n                continue\n\n            # Standard: check if next token is a value (not a flag)\n            if i + 1 < len(toks) and not toks[i + 1].startswith(\"--\"):\n                args[key] = _coerce(toks[i + 1])\n                i += 2\n            else:\n                # lone flag -> True\n                args[key] = True\n                i += 1\n        else:\n            # unexpected positional; skip\n            i += 1\n\n    return {\"executable\": executable, \"script\": script, \"args\": args}",
+            "start": 59,
+            "end": 2036,
+            "path": [
+                "parse_client_command"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "parser = argparse.ArgumentParser()\n    parser.add_argument(\n        \"-r\",\n        \"--result\",\n        type=str,\n        default=\"results\",\n        help=\"Folder name for benchmark output results.\",\n    )\n    args = parser.parse_args()\n    results_folder = Path(args.result)\n    if not results_folder.exists():\n        raise FileNotFoundError(f\"results folder does not exist: {results_folder}\")",
+            "start": 2070,
+            "end": 2462,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "with open(test_file) as f:\n            raw_result = json.loads(f.read())",
+            "start": 2545,
+            "end": 2617,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "try:\n                with open(test_file.with_suffix(\".commands\")) as f:\n                    command = json.loads(f.read())\n            except OSError as e:\n                print(e)\n                continue\n            # Parse Server Command Arg\n            out: dict[str, Any] = {\n                \"server_command\": parse_client_command(command[\"server_command\"])\n            }\n            parse_args = [\n                \"--tensor-parallel-size\",\n                \"--pipeline-parallel-size\",\n                \"--dtype\",\n            ]\n            col_mapping = [\"tp_size\", \"pp_size\", \"dtype\"]\n            for index, arg in enumerate(parse_args):\n                if arg in out[\"server_command\"][\"args\"]:\n                    raw_result.update(\n                        {col_mapping[index]: out[\"server_command\"][\"args\"][arg]}\n                    )\n\n            # Parse Client Command Arg\n            out: dict[str, Any] = {\n                \"client_command\": parse_client_command(command[\"client_command\"])\n            }\n            parse_args = [\n                \"--dataset-name\",\n                \"--random-input-len\",\n                \"--random-output-len\",\n                \"--request-rate\",\n            ]\n            col_mapping = [\"dataset_name\", \"input_len\", \"output_len\", \"qps\"]\n\n            for index, arg in enumerate(parse_args):\n                if arg in out[\"client_command\"][\"args\"]:\n                    raw_result.update(\n                        {col_mapping[index]: out[\"client_command\"][\"args\"][arg]}\n                    )\n            # Add Server, Client command\n            raw_result.update(command)\n\n            # update the test name of this result\n            raw_result.update({\"test_name\": test_file.stem})\n            # add the result to raw_result\n            serving_results.append(raw_result)\n            continue",
+            "start": 2801,
+            "end": 2801,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "elif \"latency\" in f.name:\n            # this result is generated via `vllm bench latency` command\n\n            # attach the benchmarking command to raw_result\n            try:\n                with open(test_file.with_suffix(\".commands\")) as f:\n                    command = json.loads(f.read())\n            except OSError as e:\n                print(e)\n                continue\n\n            raw_result.update(command)\n\n            # update the test name of this result\n            raw_result.update({\"test_name\": test_file.stem})\n\n            # get different percentiles\n            for perc in [10, 25, 50, 75, 90, 99]:\n                # Multiply 1000 to convert the time unit from s to ms\n                raw_result.update(\n                    {f\"P{perc}\": 1000 * raw_result[\"percentiles\"][str(perc)]}\n                )\n            raw_result[\"avg_latency\"] = raw_result[\"avg_latency\"] * 1000\n\n            # add the result to raw_result\n            latency_results.append(raw_result)\n            continue\n\n        elif \"throughput\" in f.name:\n            # this result is generated via `vllm bench throughput` command\n\n            # attach the benchmarking command to raw_result\n            try:\n                with open(test_file.with_suffix(\".commands\")) as f:\n                    command = json.loads(f.read())\n            except OSError as e:\n                print(e)\n                continue\n\n            raw_result.update(command)\n\n            # update the test name of this result\n            raw_result.update({\"test_name\": test_file.stem})\n\n            # add the result to raw_result\n            throughput_results.append(raw_result)\n            continue",
+            "start": 4643,
+            "end": 6309,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "print(f\"Skipping {test_file}\")",
+            "start": 6319,
+            "end": 6349,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "latency_results = pd.DataFrame.from_dict(latency_results)\n    serving_results = pd.DataFrame.from_dict(serving_results)\n    throughput_results = pd.DataFrame.from_dict(throughput_results)\n\n    svmem = psutil.virtual_memory()\n    platform_data = {\n        \"Physical cores\": [psutil.cpu_count(logical=False)],\n        \"Total cores\": [psutil.cpu_count(logical=True)],\n        \"Total Memory\": [get_size_with_unit(svmem.total)],\n    }\n\n    if util.find_spec(\"numa\") is not None:\n        from numa import info\n\n        platform_data[\"Total NUMA nodes\"] = [info.get_num_configured_nodes()]\n\n    if util.find_spec(\"cpuinfo\") is not None:\n        from cpuinfo import get_cpu_info\n\n        platform_data[\"CPU Brand\"] = [get_cpu_info()[\"brand_raw\"]]\n\n    platform_results = pd.DataFrame.from_dict(\n        platform_data, orient=\"index\", columns=[\"Platform Info\"]\n    )\n\n    raw_results_json = results_to_json(\n        latency_results, throughput_results, serving_results\n    )\n\n    # remapping the key, for visualization purpose\n    if not latency_results.empty:\n        latency_results = latency_results[list(latency_column_mapping.keys())].rename(\n            columns=latency_column_mapping\n        )\n    if not serving_results.empty:\n        valid_columns = [\n            col for col in serving_column_mapping if col in serving_results.columns\n        ]\n        serving_results = serving_results[valid_columns].rename(\n            columns=serving_column_mapping\n        )\n    if not throughput_results.empty:\n        throughput_results = throughput_results[\n            list(throughput_results_column_mapping.keys())\n        ].rename(columns=throughput_results_column_mapping)\n\n    processed_results_json = results_to_json(\n        latency_results, throughput_results, serving_results\n    )",
+            "start": 6355,
+            "end": 6355,
+            "path": [
+                "__main__"
+            ]
+        },
+        {
+            "file": "data/dir/test.py",
+            "text": "for df in [latency_results, serving_results, throughput_results]:\n        if df.empty:\n            continue\n\n        # Sort all dataframes by their respective \"Test name\" columns\n        df.sort_values(by=\"Test name\", inplace=True)\n\n        # The GPUs sometimes come in format of \"GPUTYPE\\nGPUTYPE\\n...\",\n        # we want to turn it into \"8xGPUTYPE\"\n        df[\"GPU\"] = df[\"GPU\"].apply(\n            lambda x: f\"{len(x.split('\\n'))}x{x.split('\\n')[0]}\"\n        )\n\n    # get markdown tables\n    latency_md_table = tabulate(\n        latency_results, headers=\"keys\", tablefmt=\"pipe\", showindex=False\n    )\n    serving_md_table = tabulate(\n        serving_results, headers=\"keys\", tablefmt=\"pipe\", showindex=False\n    )\n    throughput_md_table = tabulate(\n        throughput_results, headers=\"keys\", tablefmt=\"pipe\", showindex=False\n    )\n    platform_md_table = tabulate(\n        platform_results, headers=\"keys\", tablefmt=\"pipe\", showindex=True\n    )\n\n    # document the result\n    md_file = \"benchmark_results.md\"\n    json_file = \"benchmark_results.json\"\n    with open(results_folder / md_file, \"w\") as f:\n        results = read_markdown(\n            \"../.buildkite/nightly-benchmarks/\"\n            + \"performance-benchmarks-descriptions.md\"\n        )\n        results = results.format(\n            latency_tests_markdown_table=latency_md_table,\n            throughput_tests_markdown_table=throughput_md_table,\n            serving_tests_markdown_table=serving_md_table,\n            platform_markdown_table=platform_md_table,\n            benchmarking_results_in_json_string=processed_results_json,\n        )\n        f.write(results)\n\n    # document benchmarking results in json\n    with open(results_folder / json_file, \"w\") as f:\n        results = (\n            latency_results.to_dict(orient=\"records\")\n            + throughput_results.to_dict(orient=\"records\")\n            + serving_results.to_dict(orient=\"records\")\n        )\n        f.write(json.dumps(results))",
+            "start": 8143,
+            "end": 10106,
+            "path": [
+                "__main__"
+            ]
+        }
+    ]
+}
