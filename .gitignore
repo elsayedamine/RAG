@@ -2,6 +2,7 @@
 */*/__pycache__
 __pycache__/*
 *.egg-info/
+.venv
 
 data/raw/*
 data/processed/*
