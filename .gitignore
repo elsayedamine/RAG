@@ -1,4 +1,8 @@
-data/*
 */__pycache__
 */*/__pycache__
 __pycache__/*
+*.egg-info/
+
+data/raw/*
+data/processed/*
+data/output/*

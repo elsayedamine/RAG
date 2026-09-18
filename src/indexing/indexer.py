@@ -39,19 +39,40 @@ class Indexer:
             idf[token] = log((self.N - df + 0.5) / (df + 0.5) + 1)
         return idf
 
-    def bm25_score(self, query: List[str], doc_id: int) -> float:
-        k1 = 1.5
-        b = .75
-        score = 0
-        avgdl = self.avgdl
-        for token in query:
-            if token not in self.IDF:
-                continue
-            idf = self.IDF[token]
-            tf = self.TF[token].get(doc_id, 0) if token in self.TF else 0
-            dl = self.DL[doc_id]
-            score += idf * (tf * (k1 + 1) / (tf + k1 * (1 - b + b * (dl / avgdl))))
-        return score
+    def bm25_score(self, query_tokens: list[str], doc_id: int) -> float:
+            score = 0.0
+
+            k1 = 1.5
+            b = 0.55  # Reduced slightly from 0.75 to soften penalty on detailed doc sections
+
+            # Deduplicate query tokens to eliminate sub-token overcounting
+            unique_qtokens = set(query_tokens)
+
+            for token in unique_qtokens:
+                tf = self.TF.get(token, {}).get(doc_id, 0)
+                if tf == 0:
+                    continue
+
+                idf = self.IDF.get(token, 0.0)
+
+                numerator = tf * (k1 + 1)
+                denominator = tf + k1 * (1 - b + b * (self.DL[doc_id] / self.avgdl))
+
+                score += idf * (numerator / denominator)
+
+            # Bigram Phrase Match Boost
+            if len(query_tokens) >= 2:
+                doc_toks = self.corpus.documents[doc_id]
+                if len(doc_toks) >= 2:
+                    doc_bigrams = set(zip(doc_toks[:-1], doc_toks[1:]))
+                    for i in range(len(query_tokens) - 1):
+                        bigram = (query_tokens[i], query_tokens[i + 1])
+                        if bigram in doc_bigrams:
+                            term1_idf = self.IDF.get(query_tokens[i], 1.0)
+                            term2_idf = self.IDF.get(query_tokens[i + 1], 1.0)
+                            score += 0.75 * (term1_idf + term2_idf)
+
+            return score
 
     def __init__(self, corpus: Corpus):
         self.corpus = corpus
