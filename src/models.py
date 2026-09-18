@@ -1,7 +1,7 @@
 """Data models for the RAG pipeline using Pydantic."""
 
 import uuid
-from typing import List, Union
+from typing import List
 from pydantic import BaseModel, Field
 
 
@@ -30,7 +30,7 @@ class AnsweredQuestion(UnansweredQuestion):
 class RagDataset(BaseModel):
     """Represents a dataset of RAG questions."""
 
-    rag_questions: List[Union[AnsweredQuestion, UnansweredQuestion]]
+    rag_questions: List[AnsweredQuestion | UnansweredQuestion]
 
 
 class MinimalSearchResults(BaseModel):
