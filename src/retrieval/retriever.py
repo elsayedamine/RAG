@@ -1,7 +1,7 @@
 from typing import List, Set
 
-from src.indexing import Indexer, Corpus
-from src.models import (
+from indexing import Indexer, Corpus
+from models import (
     StudentSearchResults,
     MinimalSource,
     RagDataset,
