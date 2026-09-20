@@ -11,6 +11,8 @@ class MinimalSource(BaseModel):
     file_path: str
     first_character_index: int
     last_character_index: int
+    def __str__(self):
+        return f"{self.file_path} [{self.first_character_index}:{self.last_character_index}]"
 
 
 class UnansweredQuestion(BaseModel):
