@@ -1,5 +1,5 @@
 from indexing import Indexer
-from .context import ContextBuilder
+from .context import Context
 from .generator import Generator
 from models import (
     MinimalAnswer,
@@ -9,31 +9,20 @@ from models import (
 )
 
 class Answerer:
-    """Generates answers from retrieved search results."""
-
-    def __init__(self, index: Indexer):
-        """Initialize the context builder and generator."""
+    def __init__(self, index, ):
         self.index = index
         self.generator = Generator()
-
+    
     def answer(self, result: MinimalSearchResults) -> MinimalAnswer:
-        """Generate an answer for one set of retrieved search results."""
-        context = ContextBuilder(
-            self.index,
-            result.retrieved_sources,
-        ).context
-
-        answer = self.generator.generate(
-            result.question,
-            context,
-        )
-
+        context = Context(self.index, result.retrieved_sources).context
+        answer = self.generator.generate(result.question, context)
         return MinimalAnswer(
-            question_id=result.question_id,
-            question=result.question,
-            retrieved_sources=result.retrieved_sources,
             answer=answer,
-        )
+            question=result.question,
+            question_id=result.question_id,
+            retrieved_sources=result.retrieved_sources
+            )
+
     def answer_dataset(
         self,
         results: StudentSearchResults,
